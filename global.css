@@ -5,22 +5,23 @@ body {
 
 :root {
   /* fonts */
-  --font-lexend-exa: "Lexend Exa";
   --font-amiri: Amiri;
+  --font-lexend-exa: "Lexend Exa";
   --font-lexend-deca: "Lexend Deca";
 
   /* font sizes */
-  --font-size-xl: 20px;
-  --font-size-13xl: 32px;
-  --font-size-base: 16px;
   --font-size-5xl: 24px;
+  --font-size-13xl: 32px;
+  --font-size-21xl: 40px;
+  --font-size-xl: 20px;
+  --font-size-base: 16px;
 
   /* Colors */
   --color-white: #fff;
   --color-black: #000;
   --color-gainsboro-100: #d9d9d9;
   --color-gainsboro-200: rgba(217, 217, 217, 0.6);
-  --color-dimgray-200: #6f6868;
+  --color-dimgray: #645c5c;
 
   /* Border radiuses */
   --br-11xl: 30px;

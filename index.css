@@ -1,101 +1,109 @@
-.desktop-1-child {
+.frame-child,
+.frame-item {
   position: absolute;
-  top: -13px;
+  top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.6);
   width: 1560px;
-  height: 749px;
+  height: 736px;
 }
-.unlock-the-talent {
+.frame-child {
+  object-fit: cover;
+}
+.frame-item {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.frame-inner {
   position: absolute;
-  top: 104px;
-  left: 438px;
+  top: 145px;
+  left: 335px;
+  background-color: var(--color-gainsboro-200);
+  width: 932px;
+  height: 488px;
+}
+.unlock-your-career {
+  position: absolute;
+  top: 85px;
+  left: 410px;
   font-size: var(--font-size-13xl);
-  display: inline-block;
-  width: 685px;
-  height: 54px;
+  font-family: var(--font-lexend-exa);
+  color: var(--color-white);
 }
-.desktop-1-inner,
-.desktop-1-item,
+.frame-child1,
+.frame-child2,
 .rectangle-div {
   position: absolute;
-  top: 237px;
-  left: 285px;
+  top: 226px;
+  left: 482px;
   background-color: var(--color-gainsboro-100);
-  width: 990px;
-  height: 68px;
+  width: 596px;
+  height: 59px;
 }
-.desktop-1-inner,
-.rectangle-div {
-  top: 395px;
+.frame-child1,
+.frame-child2 {
+  top: 309px;
 }
-.rectangle-div {
-  top: 530px;
-  left: 654px;
+.frame-child2 {
+  top: 431px;
+  left: 651px;
   border-radius: var(--br-11xl);
-  width: 309px;
-  height: 60px;
+  width: 261px;
+  height: 45px;
   cursor: pointer;
 }
 .enter-password,
-.enter-the-organizations,
-.forgot-password {
+.enter-registered-mobile {
   position: absolute;
-  top: 191px;
-  left: 296px;
+  top: 234px;
+  left: 501px;
   display: inline-block;
-  font-family: var(--font-amiri);
-  width: 827px;
-  height: 31px;
+  width: 357px;
+  height: 22px;
 }
-.enter-password,
-.forgot-password {
-  top: 352px;
-  width: 190px;
+.enter-password {
+  top: 317px;
 }
 .forgot-password {
-  top: 482px;
-  left: 300px;
-  width: 224px;
-  height: 43px;
+  top: 371px;
+  left: 501px;
+  width: 300px;
+  height: 36px;
 }
+.forgot-password,
 .login,
-.login-with-otp,
-.or {
+.login-with-otp {
   position: absolute;
   display: inline-block;
-  height: 25px;
-}
-.login {
-  top: 547px;
-  left: 754px;
-  color: var(--color-black);
-  width: 110px;
-}
-.login-with-otp,
-.or {
-  top: 605px;
-  left: 780px;
-  width: 47px;
 }
 .login-with-otp {
-  top: 645px;
-  left: 691px;
-  width: 235px;
-  height: 18px;
+  top: 479px;
+  left: 726px;
+  width: 149px;
+  height: 36px;
   cursor: pointer;
+}
+.login {
+  top: 435px;
+  left: 739px;
+  width: 86px;
+  height: 37px;
+}
+.desktop-1,
+.rectangle-parent {
+  background-color: var(--color-white);
+  height: 736px;
+  overflow: hidden;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1560px;
 }
 .desktop-1 {
   position: relative;
   width: 100%;
-  height: 736px;
-  overflow: hidden;
-  background-image: url(./public/rectangle-1@2x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
   text-align: left;
-  font-size: var(--font-size-xl);
-  color: var(--color-white);
-  font-family: var(--font-lexend-exa);
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-amiri);
 }

@@ -16,38 +16,42 @@
     />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Lexend Deca:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lexend Deca:wght@400&display=swap"
     />
   </head>
   <body>
     <div class="desktop-1">
-      <div class="desktop-1-child"></div>
-      <b class="unlock-the-talent">UNLOCK THE TALENT YOU NEED!</b>
-      <div class="desktop-1-item"></div>
-      <div class="desktop-1-inner"></div>
-      <div class="rectangle-div" id="rectangle3"></div>
-      <b class="enter-the-organizations"
-        >ENTER THE ORGANIZATION’S NAME/REGISTERED MOBILE NUMBER</b
-      >
-      <b class="enter-password">ENTER PASSWORD</b>
-      <b class="forgot-password">FORGOT PASSWORD?</b>
-      <b class="login">LOGIN</b>
-      <b class="or">OR</b>
-      <b class="login-with-otp" id="lOGINWITHOTP">LOGIN WITH OTP</b>
+      <div class="rectangle-parent">
+        <img class="frame-child" alt="" src="./public/rectangle-1@2x.png" />
+
+        <div class="frame-item"></div>
+        <div class="frame-inner"></div>
+        <b class="unlock-your-career">Unlock Your Career Potential Today!</b>
+        <div class="rectangle-div"></div>
+        <div class="frame-child1"></div>
+        <div class="frame-child2" id="rectangle4"></div>
+        <div class="enter-registered-mobile">
+          Enter registered mobile number
+        </div>
+        <div class="enter-password">Enter password</div>
+        <b class="forgot-password">Forgot Password?</b>
+        <i class="login-with-otp" id="loginWithOtp">login with otp</i>
+        <b class="login">LOGIN</b>
+      </div>
     </div>
 
     <script>
-      var rectangle3 = document.getElementById("rectangle3");
-      if (rectangle3) {
-        rectangle3.addEventListener("click", function (e) {
-          window.location.href = "./Frame2.html";
+      var rectangle4 = document.getElementById("rectangle4");
+      if (rectangle4) {
+        rectangle4.addEventListener("click", function (e) {
+          window.location.href = "./frame-3.html";
         });
       }
       
-      var lOGINWITHOTP = document.getElementById("lOGINWITHOTP");
-      if (lOGINWITHOTP) {
-        lOGINWITHOTP.addEventListener("click", function (e) {
-          window.location.href = "./Frame1.html";
+      var loginWithOtp = document.getElementById("loginWithOtp");
+      if (loginWithOtp) {
+        loginWithOtp.addEventListener("click", function (e) {
+          window.location.href = "./frame-2.html";
         });
       }
       </script>

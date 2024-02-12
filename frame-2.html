@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./frame-2.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend Exa:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend Deca:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="rectangle-root">
+      <img class="frame-child10" alt="" src="./public/rectangle-7@2x.png" />
+
+      <div class="frame-child11"></div>
+      <div class="frame-child12"></div>
+      <b class="login-with-otp1">LOGIN WITH OTP</b>
+      <div class="frame-child13"></div>
+      <div class="frame-child14"></div>
+      <div class="enter-registered-mobile1">Enter registered mobile number</div>
+      <div class="enter-otp">Enter OTP</div>
+      <b class="generate-otp">Generate OTP</b>
+      <b class="not-received-resend">Not Received? Resend OTP</b>
+      <div class="frame-child15" id="rectangle4"></div>
+      <b class="login1">LOGIN</b>
+    </div>
+
+    <script>
+      var rectangle4 = document.getElementById("rectangle4");
+      if (rectangle4) {
+        rectangle4.addEventListener("click", function (e) {
+          window.location.href = "./frame-3.html";
+        });
+      }
+      </script>
+  </body>
+</html>
