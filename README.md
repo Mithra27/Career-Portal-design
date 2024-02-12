@@ -34,6 +34,7 @@ To install and run the Career Portal Design, follow these steps:
 
 ## Technologies Used
 - Frontend: HTML, CSS, JavaScript, React.js
+- UI/UX Design: Figma
 
 ## Contributing
 Contributions to the Career Portal Design project are welcome! To contribute, follow these steps:
