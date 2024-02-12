@@ -1,0 +1,44 @@
+Certainly! Here's a README file tailored for a career portal design with both job seeker and recruiter interfaces, designed using Figma:
+
+---
+
+# Career Portal Design
+
+## Overview
+The Career Portal Design is a comprehensive solution designed using Figma to cater to the needs of both job seekers and recruiters. This design provides intuitive interfaces for job seekers to explore job opportunities and for recruiters to manage the recruitment process efficiently.
+
+## Features
+
+### For Job Seekers
+- **User-friendly Interface:** Intuitive design for easy navigation and seamless user experience.
+- **Job Search:** Explore a diverse range of job opportunities based on various criteria such as location, industry, job title, and skillset.
+- **Profile Management:** Create and manage personal profiles showcasing skills, qualifications, and work experience.
+- **Skill Matching:** Receive personalized job recommendations based on skills and preferences.
+- **Application Tracking:** Keep track of job applications, interviews, and application statuses.
+
+### For Recruiters
+- **Dashboard:** Overview of ongoing recruitment processes, including job postings, applicant profiles, and hiring pipeline.
+- **Job Posting:** Easily create and manage job postings with detailed descriptions, requirements, and application deadlines.
+- **Application Management:** Efficiently manage job applications, review candidate profiles, and schedule interviews.
+- **Candidate Filtering:** Filter and search for candidates based on various criteria such as skills, experience, and qualifications.
+- **Analytics:** Access recruitment analytics to track key metrics and optimize hiring processes.
+
+## Design Preview
+The Career Portal Design has been created using Figma. You can preview the design by accessing the following link: [Figma Design Preview](https://www.figma.com/file/example)
+
+## Getting Started
+To implement the Career Portal Design in your project:
+
+For Job Seeker Interface:
+https://www.figma.com/file/aWIbY5qmfGu0ipz2o47S9Z/EMPLOYEE-INTERFACE?type=design&mode=design&t=JUTVMT6KA3cYkLfn-1
+
+For Recruiter Interface:
+https://www.figma.com/file/rmDCuSMuOT52DaxVic7vZ6/ORGANIZATION-INTERFACE?type=design&mode=design&t=JUTVMT6KA3cYkLfn-1
+
+1. Download the design assets from the Figma link provided above.
+2. Integrate the design elements into your development environment, ensuring consistency with the Figma prototype.
+3. Customize the design as needed to fit your specific requirements and branding guidelines.
+4. Test the user interfaces to ensure functionality and usability across different devices and screen sizes.
+
+## Contributing
+Contributions to the Career Portal Design project are welcome! If you have any suggestions or improvements, please feel free to contribute by submitting pull requests or raising issues on the GitHub repository.
