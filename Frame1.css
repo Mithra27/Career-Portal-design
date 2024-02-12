@@ -1,0 +1,117 @@
+.login-with-otp1 {
+  position: absolute;
+  top: 89px;
+  left: 581px;
+  display: inline-block;
+  width: 399px;
+  height: 36px;
+}
+.frame24,
+.generate-otp {
+  position: absolute;
+  height: 25px;
+}
+.generate-otp {
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 155px;
+}
+.frame24 {
+  top: 152px;
+  left: 193px;
+  width: 584px;
+  overflow: hidden;
+}
+.not-recevied-resend {
+  position: absolute;
+  top: 0;
+  left: 57px;
+  display: inline-block;
+  width: 327px;
+  height: 27px;
+}
+.frame25 {
+  position: absolute;
+  top: 308px;
+  left: 293px;
+  width: 384px;
+  height: 27px;
+  overflow: hidden;
+}
+.enter-registered-mobile {
+  position: absolute;
+  top: 30px;
+  left: 21px;
+  display: inline-block;
+  width: 476px;
+  height: 25px;
+}
+.frame26,
+.frame27,
+.frame28 {
+  position: absolute;
+  height: 84px;
+  overflow: hidden;
+}
+.frame27 {
+  top: 0;
+  left: 16px;
+  background-color: var(--color-gainsboro-100);
+  width: 642px;
+}
+.frame26,
+.frame28 {
+  top: 66px;
+  left: 156px;
+  width: 658px;
+}
+.frame28 {
+  top: 208px;
+}
+.login1 {
+  position: absolute;
+  top: 12px;
+  left: 110px;
+  display: inline-block;
+  width: 80px;
+  height: 29px;
+}
+.frame23,
+.frame30 {
+  position: absolute;
+  overflow: hidden;
+}
+.frame30 {
+  top: 351px;
+  left: 350px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gainsboro-100);
+  width: 270px;
+  height: 53px;
+}
+.frame23 {
+  top: 143px;
+  left: 295px;
+  background-color: var(--color-gainsboro-200);
+  width: 970px;
+  height: 450px;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-amiri);
+}
+.login-with-otp-parent {
+  position: relative;
+  width: 100%;
+  height: 736px;
+  overflow: hidden;
+  background-image: url(./public/rectangle-6@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-lexend-exa);
+}

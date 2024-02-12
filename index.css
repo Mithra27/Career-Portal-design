@@ -1,0 +1,101 @@
+.desktop-1-child {
+  position: absolute;
+  top: -13px;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 1560px;
+  height: 749px;
+}
+.unlock-the-talent {
+  position: absolute;
+  top: 104px;
+  left: 438px;
+  font-size: var(--font-size-13xl);
+  display: inline-block;
+  width: 685px;
+  height: 54px;
+}
+.desktop-1-inner,
+.desktop-1-item,
+.rectangle-div {
+  position: absolute;
+  top: 237px;
+  left: 285px;
+  background-color: var(--color-gainsboro-100);
+  width: 990px;
+  height: 68px;
+}
+.desktop-1-inner,
+.rectangle-div {
+  top: 395px;
+}
+.rectangle-div {
+  top: 530px;
+  left: 654px;
+  border-radius: var(--br-11xl);
+  width: 309px;
+  height: 60px;
+  cursor: pointer;
+}
+.enter-password,
+.enter-the-organizations,
+.forgot-password {
+  position: absolute;
+  top: 191px;
+  left: 296px;
+  display: inline-block;
+  font-family: var(--font-amiri);
+  width: 827px;
+  height: 31px;
+}
+.enter-password,
+.forgot-password {
+  top: 352px;
+  width: 190px;
+}
+.forgot-password {
+  top: 482px;
+  left: 300px;
+  width: 224px;
+  height: 43px;
+}
+.login,
+.login-with-otp,
+.or {
+  position: absolute;
+  display: inline-block;
+  height: 25px;
+}
+.login {
+  top: 547px;
+  left: 754px;
+  color: var(--color-black);
+  width: 110px;
+}
+.login-with-otp,
+.or {
+  top: 605px;
+  left: 780px;
+  width: 47px;
+}
+.login-with-otp {
+  top: 645px;
+  left: 691px;
+  width: 235px;
+  height: 18px;
+  cursor: pointer;
+}
+.desktop-1 {
+  position: relative;
+  width: 100%;
+  height: 736px;
+  overflow: hidden;
+  background-image: url(./public/rectangle-1@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-lexend-exa);
+}

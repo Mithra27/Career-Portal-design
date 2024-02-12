@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend Exa:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend Deca:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-1">
+      <div class="desktop-1-child"></div>
+      <b class="unlock-the-talent">UNLOCK THE TALENT YOU NEED!</b>
+      <div class="desktop-1-item"></div>
+      <div class="desktop-1-inner"></div>
+      <div class="rectangle-div" id="rectangle3"></div>
+      <b class="enter-the-organizations"
+        >ENTER THE ORGANIZATION’S NAME/REGISTERED MOBILE NUMBER</b
+      >
+      <b class="enter-password">ENTER PASSWORD</b>
+      <b class="forgot-password">FORGOT PASSWORD?</b>
+      <b class="login">LOGIN</b>
+      <b class="or">OR</b>
+      <b class="login-with-otp" id="lOGINWITHOTP">LOGIN WITH OTP</b>
+    </div>
+
+    <script>
+      var rectangle3 = document.getElementById("rectangle3");
+      if (rectangle3) {
+        rectangle3.addEventListener("click", function (e) {
+          window.location.href = "./Frame2.html";
+        });
+      }
+      
+      var lOGINWITHOTP = document.getElementById("lOGINWITHOTP");
+      if (lOGINWITHOTP) {
+        lOGINWITHOTP.addEventListener("click", function (e) {
+          window.location.href = "./Frame1.html";
+        });
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,418 @@
+.frame-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1560px;
+  height: 261px;
+  object-fit: cover;
+}
+.frame,
+.frame-item {
+  position: absolute;
+  width: 423px;
+}
+.frame-item {
+  top: 59px;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gainsboro-200);
+  height: 614px;
+}
+.frame {
+  top: 0;
+  left: 45px;
+  height: 673px;
+  overflow: hidden;
+}
+.frame-inner {
+  top: 340px;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gainsboro-200);
+  height: 105px;
+}
+.frame-child1,
+.frame-inner,
+.frame1 {
+  position: absolute;
+  width: 566px;
+}
+.frame1 {
+  top: 0;
+  left: 494px;
+  height: 445px;
+  overflow: hidden;
+}
+.frame-child1 {
+  top: 474px;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gainsboro-200);
+  height: 105px;
+}
+.frame2 {
+  top: 0;
+  left: 494px;
+  height: 579px;
+  overflow: hidden;
+}
+.frame-child2,
+.frame2,
+.frame3 {
+  position: absolute;
+  width: 566px;
+}
+.frame-child2 {
+  top: 606px;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gainsboro-200);
+  height: 105px;
+}
+.frame3 {
+  top: 0;
+  left: 494px;
+  height: 711px;
+  overflow: hidden;
+}
+.frame4,
+.rectangle-icon {
+  position: absolute;
+  width: 435px;
+}
+.rectangle-icon {
+  top: 290px;
+  left: 0;
+  border-radius: var(--br-11xl);
+  height: 421px;
+  object-fit: cover;
+}
+.frame4 {
+  top: 0;
+  left: 1099px;
+  height: 711px;
+  overflow: hidden;
+}
+.notifications {
+  position: absolute;
+  top: 290px;
+  left: 0;
+  display: inline-block;
+  width: 250px;
+  height: 50px;
+}
+.frame-icon,
+.frame5 {
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+}
+.frame5 {
+  left: 494px;
+  width: 250px;
+  height: 340px;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-lexend-exa);
+}
+.frame-icon {
+  left: 29px;
+  width: 198px;
+  height: 230px;
+}
+.frame6,
+.nbc-technologies {
+  position: absolute;
+  width: 277px;
+}
+.nbc-technologies {
+  top: 85px;
+  left: 0;
+  display: inline-block;
+  height: 33px;
+}
+.frame6 {
+  top: 0;
+  left: 219px;
+  height: 118px;
+  overflow: hidden;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-amiri);
+}
+.contact-details,
+.frame7 {
+  position: absolute;
+  width: 167px;
+}
+.contact-details {
+  top: 288px;
+  left: 0;
+  display: inline-block;
+  height: 26px;
+}
+.frame7 {
+  top: 0;
+  left: 52px;
+  height: 314px;
+  overflow: hidden;
+}
+.frame8,
+.job-vacancies {
+  position: absolute;
+  width: 137px;
+}
+.job-vacancies {
+  top: 379px;
+  left: 0;
+  display: inline-block;
+  height: 26px;
+}
+.frame8 {
+  top: 0;
+  left: 51px;
+  height: 405px;
+  overflow: hidden;
+}
+.eligibility,
+.frame9 {
+  position: absolute;
+  width: 120px;
+}
+.eligibility {
+  top: 470px;
+  left: 0;
+  display: inline-block;
+  height: 27px;
+}
+.frame9 {
+  top: 0;
+  left: 54px;
+  height: 497px;
+  overflow: hidden;
+}
+.frame10,
+.place-of-posting {
+  position: absolute;
+  width: 172px;
+}
+.place-of-posting {
+  top: 569px;
+  left: 0;
+  display: inline-block;
+  height: 27px;
+}
+.frame10 {
+  top: 0;
+  left: 52px;
+  height: 596px;
+  overflow: hidden;
+}
+.div,
+.frame11 {
+  position: absolute;
+  width: 125px;
+}
+.div {
+  top: 313px;
+  left: 0;
+  display: inline-block;
+  height: 19px;
+}
+.frame11 {
+  top: 0;
+  left: 130px;
+  height: 332px;
+  overflow: hidden;
+}
+.div1,
+.frame12 {
+  position: absolute;
+  width: 160px;
+}
+.div1 {
+  top: 336px;
+  left: 0;
+  display: inline-block;
+  height: 26px;
+}
+.frame12 {
+  top: 0;
+  left: 132px;
+  height: 362px;
+  overflow: hidden;
+}
+.customer-service-representativ {
+  position: absolute;
+  top: 405px;
+  left: 0;
+  display: inline-block;
+  width: 330px;
+  height: 14px;
+}
+.frame13 {
+  position: absolute;
+  top: 0;
+  left: 128px;
+  width: 330px;
+  height: 419px;
+  overflow: hidden;
+}
+.marketing-specialist {
+  position: absolute;
+  top: 430px;
+  left: 0;
+  display: inline-block;
+  width: 205px;
+  height: 28px;
+}
+.frame14 {
+  position: absolute;
+  top: 0;
+  left: 132px;
+  width: 205px;
+  height: 458px;
+  overflow: hidden;
+}
+.under-graduate {
+  position: absolute;
+  top: 502px;
+  left: 0;
+  display: inline-block;
+  width: 163px;
+  height: 28px;
+}
+.frame15 {
+  top: 0;
+  left: 128px;
+  height: 530px;
+  overflow: hidden;
+}
+.frame15,
+.frame16,
+.post-graduate {
+  position: absolute;
+  width: 163px;
+}
+.post-graduate {
+  top: 526px;
+  left: 0;
+  display: inline-block;
+  height: 28px;
+}
+.frame16 {
+  top: 0;
+  left: 130px;
+  height: 554px;
+  overflow: hidden;
+}
+.amritsar {
+  position: absolute;
+  top: 604px;
+  left: 0;
+  display: inline-block;
+  width: 97px;
+  height: 28px;
+}
+.frame17 {
+  top: 0;
+  left: 130px;
+  height: 632px;
+  overflow: hidden;
+}
+.frame17,
+.frame18,
+.sas-nagar {
+  position: absolute;
+  width: 97px;
+}
+.sas-nagar {
+  top: 629px;
+  left: 0;
+  display: inline-block;
+  height: 28px;
+}
+.frame18 {
+  top: 0;
+  left: 130px;
+  height: 657px;
+  overflow: hidden;
+}
+.wwwnbctechnologiescom {
+  position: absolute;
+  top: 118px;
+  left: 0;
+  display: inline-block;
+  width: 162px;
+  height: 24px;
+}
+.frame19 {
+  position: absolute;
+  top: 0;
+  left: 255px;
+  width: 162px;
+  height: 142px;
+  overflow: hidden;
+  font-family: var(--font-amiri);
+}
+.frame20,
+.weve-found-a {
+  position: absolute;
+  width: 510px;
+}
+.weve-found-a {
+  top: 352px;
+  left: 0;
+  display: inline-block;
+  height: 81px;
+}
+.frame20 {
+  top: 0;
+  left: 523px;
+  height: 433px;
+  overflow: hidden;
+  color: var(--color-dimgray-200);
+}
+.your-ideal-candidate {
+  position: absolute;
+  top: 486px;
+  left: 0;
+  display: inline-block;
+  width: 510px;
+  height: 81px;
+}
+.frame21 {
+  top: 0;
+  left: 522px;
+  height: 567px;
+  overflow: hidden;
+  color: var(--color-dimgray-200);
+}
+.frame21,
+.frame22,
+.your-next-team {
+  position: absolute;
+  width: 510px;
+}
+.your-next-team {
+  top: 621px;
+  left: 0;
+  display: inline-block;
+  height: 81px;
+}
+.frame22 {
+  top: 0;
+  left: 525px;
+  height: 702px;
+  overflow: hidden;
+  color: var(--color-dimgray-200);
+}
+.rectangle-parent {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 736px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-lexend-deca);
+}
